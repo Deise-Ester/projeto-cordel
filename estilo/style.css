@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
+
+:root{
+    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02:"Jersey 25", sans-serif; peso da fonte: 400; estilo da fonte: normal;
+    --fonte03:"Arbutus", serif; peso da fonte: 400; estilo da fonte: normal; 
+}
+    *{
+   margin: 0px;
+   padding: 0px;
+}
+html, body{
+   background-color: #da86205b;
+   min-height: 100vh;
+   font-family: var(--fonte03);
+}
+
+header{
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte03);
+    font-size: 5vw;
+    color: #fdb762c5;
+}
+header > p{
+    padding-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fdb762c5;
+}
+a{
+    color: #fdb762c5;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section> p{
+    padding-bottom:2em ;
+}
+section.normal{
+    background-color:#da86205b;
+}
+section.imagem{
+    background-color: #57320498;
+    color: black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.459);
+    background-attachment: fixed;
+}
+section.imagem > p{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.185);
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.459);
+}
+section#img01{
+    background-image: url('../imagens/cristo-redentor-adaptado.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../imagens/imagem-nordeste.jpg');
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer > p{
+    color: #fdb762c5;
+}
