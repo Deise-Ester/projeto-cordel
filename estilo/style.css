@@ -15,6 +15,7 @@ html, body{
    background-color: #da86205b;
    min-height: 100vh;
    font-family: var(--fonte03);
+   min-width: 300px;
    
 }
 
@@ -49,7 +50,6 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    width: 100%;
 }
 section> p{
     padding-bottom:2em ;
