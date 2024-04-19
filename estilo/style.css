@@ -15,7 +15,8 @@ html, body{
    background-color: #da86205b;
    min-height: 100vh;
    font-family: var(--fonte03);
-   width: 100%;
+   min-width: 300px;
+   max-width: 1000px;
    
 }
 
