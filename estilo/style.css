@@ -66,18 +66,18 @@ section.imagem{
 }
 section.imagem > p{
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.185);
+    background-color: rgba(255, 255, 255, 0.11);
     padding: 5px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.459);
 }
 section#img01{
-    background-image: url('../imagens/cristo-redentor-adaptado.jpg');
+    background-image: url('../imagens/cristo-redentor.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 section#img02{
-    background-image: url('../imagens/imagem-nordeste.jpg');
+    background-image: url('../imagens/nordeste.jpg');
     background-repeat: no-repeat;
     background-position: center left;
     background-size: cover;
