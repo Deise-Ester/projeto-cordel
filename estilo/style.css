@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Arbutus&display=swap');
 
 :root{
-    --fonte01:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte02:"Jersey 25", sans-serif; peso da fonte: 400; estilo da fonte: normal;
-    --fonte03:"Arbutus", serif; peso da fonte: 400; estilo da fonte: normal; 
+    --fonte01:Verdana, Tahoma, sans-serif;
+    --fonte02:"Jersey 25", sans-serif;
+    --fonte03:"Arbutus", serif;
 }
     *{
    margin: 0px;
@@ -91,4 +91,9 @@ footer{
 }
 footer > p{
     color: #fdb762c5;
+}
+
+img{
+    max-width: 1440px;
+    min-width: 600px;
 }
